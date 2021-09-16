@@ -1,13 +1,13 @@
-import React from 'react';
-import AppLoading from 'expo-app-loading';
+import React from "react";
+import AppLoading from "expo-app-loading";
 import {
   useFonts,
   Ubuntu_400Regular,
   Ubuntu_500Medium,
-  Ubuntu_700Bold
-} from '@expo-google-fonts/ubuntu';
+  Ubuntu_700Bold,
+} from "@expo-google-fonts/ubuntu";
 
-import { Details } from './src/screens/Details';
+import Gesture from "./src/screens/Gesture";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +20,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return (
-    <Details />
-  );
+  return <Gesture />;
 }
