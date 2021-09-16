@@ -19,6 +19,9 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 24,
   },
+  button: {
+    height: 70,
+  },
   info: {
     marginTop: 17,
   },
