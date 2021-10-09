@@ -9,7 +9,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import Gesture from "./src/screens/Gesture";
+import TindevLika from "./src/screens/TindevLika";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -22,5 +22,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <Gesture />;
+  return <TindevLika />;
 }
