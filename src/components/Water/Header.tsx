@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { View, Text } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
@@ -11,7 +11,7 @@ type Props = {
   percent: number;
 };
 
-export function Header({ ml, percent }: Props) {
+function DrinkwaterHeader({ ml, percent }: Props) {
   return (
     <View style={styles.header}>
       <View>
@@ -38,3 +38,5 @@ export function Header({ ml, percent }: Props) {
     </View>
   );
 }
+
+export const Header = memo(DrinkwaterHeader);
