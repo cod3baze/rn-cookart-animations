@@ -22,3 +22,16 @@
 ```
 
 no exemplo acima, quando a variável **buttonBorderAnimated.value\*** estiver no **Frame [0]** vai retornar o **valor [17]**
+
+## withTiming
+
+- determina a duração de mudança de frame/valor.
+
+```ts
+buttonBorderAnimated.value = withTiming(1, {
+  duration: 500,
+  easing: Easing.ease,
+});
+```
+
+no exemplo acima, a variável **buttonBorderAnimated.value** vai ser igual a **1** em determinada **duration\***, com outras configs...
