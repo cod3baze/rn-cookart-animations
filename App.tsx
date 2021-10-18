@@ -11,7 +11,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import TindevLika from "./src/screens/TindevLika";
+import { DrinkWater } from "./src/screens/DrinkWater";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +25,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <TindevLika />;
+  return <DrinkWater />;
 }
