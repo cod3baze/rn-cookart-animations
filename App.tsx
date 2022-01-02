@@ -11,7 +11,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import { DrinkWater } from "./src/screens/DrinkWater";
+import { LoadingAnimation } from "./src/screens/LoadingAnimation";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +25,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <DrinkWater />;
+  return <LoadingAnimation />;
 }
