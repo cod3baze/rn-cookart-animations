@@ -1734,10 +1734,24 @@
   dependencies:
     "@motify/core" "^0.14.2"
 
+"@motify/components@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@motify/components/-/components-0.17.1.tgz#96888fb0d5c6d41f484d98c9364764e511d83086"
+  integrity sha512-nUOEuNDmnjRVFD202goOilPYtjrZGr26/VCIMnPE5Jpfs9ds/4ezIhQ75zBXd3BuCcgfMRsKrnw01/O0rdWYsg==
+  dependencies:
+    "@motify/core" "^0.17.1"
+
 "@motify/core@^0.14.2":
   version "0.14.2"
   resolved "https://registry.yarnpkg.com/@motify/core/-/core-0.14.2.tgz#e048c377ad6a14ccd03750643f32bb2c95615caa"
   integrity sha512-lL2ZIzRIcCt7+Wx1davI1VOLTTJ1ZEbWj93TPbo80SLqaY++gTZSXzo8N1aHdmLR1XEaq94R6Ip1cPKDNQQmWA==
+  dependencies:
+    framer-motion "^3.9.1"
+
+"@motify/core@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@motify/core/-/core-0.17.1.tgz#1d3f0aac54ae30a636f43d069c02c8040ca67efc"
+  integrity sha512-czFnaE4o0gCNS7F3u0CdSxzx72b6Yzw2LGD/e/J5DPM7KPL70qyzj5cZ8Rq1sKnUZMfgvCfxyGql21FbGdyhew==
   dependencies:
     framer-motion "^3.9.1"
 

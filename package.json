@@ -11,6 +11,7 @@
     "@expo-google-fonts/righteous": "^0.2.0",
     "@expo-google-fonts/roboto": "^0.2.0",
     "@expo-google-fonts/ubuntu": "^0.2.0",
+    "@motify/components": "^0.17.1",
     "expo": "~42.0.1",
     "expo-app-loading": "^1.1.2",
     "expo-font": "~9.2.1",
