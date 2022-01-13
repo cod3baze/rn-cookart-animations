@@ -11,7 +11,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import { LoadingAnimation } from "./src/screens/LoadingAnimation";
+import { Tinderfy } from "./src/screens/Tinderfy";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +25,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <LoadingAnimation />;
+  return <Tinderfy />;
 }
