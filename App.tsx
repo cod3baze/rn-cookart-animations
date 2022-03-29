@@ -11,7 +11,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import { Tinderfy } from "./src/screens/Tinderfy";
+import { MotiExamples } from "./src/screens/MotiExamples";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +25,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <Tinderfy />;
+  return <MotiExamples />;
 }
