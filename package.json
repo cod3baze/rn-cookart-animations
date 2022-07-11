@@ -13,7 +13,7 @@
     "@expo-google-fonts/ubuntu": "^0.2.0",
     "@motify/components": "^0.17.1",
     "@motify/interactions": "^0.17.1",
-    "expo": "~42.0.1",
+    "expo": "^45.0.6",
     "expo-app-loading": "^1.1.2",
     "expo-font": "~9.2.1",
     "expo-status-bar": "~1.0.4",
