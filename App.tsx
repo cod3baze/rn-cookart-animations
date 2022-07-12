@@ -11,7 +11,7 @@ import {
   Ubuntu_700Bold,
 } from "@expo-google-fonts/ubuntu";
 
-import { MotiExamples } from "./src/screens/MotiExamples";
+import { ShazamApp } from "./src/screens/Shazam";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +25,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <MotiExamples />;
+  return <ShazamApp />;
 }
