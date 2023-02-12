@@ -17,6 +17,8 @@ export const Container = styled.View`
 
 export const Header = styled.View<HeaderProps>`
   width: 100%;
+  height: 70px;
 
-  background-color: ${({ screen }) => (screen === "Shazam" ? "#f23" : "#e8e8")};
+  background-color: ${({ screen }) =>
+    screen === "Shazam" ? "#f23" : "#969cb2"};
 `;

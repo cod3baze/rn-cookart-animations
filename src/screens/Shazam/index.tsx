@@ -12,8 +12,8 @@ import { screenTypes, ScrollableScreenKeys } from "./screenTypes";
 
 const { width } = Dimensions.get("screen");
 
-const IMAGE_SIZE = 80;
-const SPACING = 10;
+const IMAGE_SIZE = 12;
+const SPACING = 1;
 
 export function ShazamApp() {
   const [screens] = useState<ScrollableScreenKeys[]>([...screenTypes]);
@@ -86,9 +86,9 @@ export function ShazamApp() {
               height: IMAGE_SIZE,
               borderRadius: 12,
               marginRight: SPACING,
-              borderWidth: 2,
-              borderColor: activeIndex === index ? "#FFFFFF" : "transparent",
-              backgroundColor: "#f34",
+              borderWidth: 1,
+              borderColor: activeIndex === index ? "#121213" : "transparent",
+              backgroundColor: "#999",
             }}
           />
         )}
